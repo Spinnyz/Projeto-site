@@ -9,13 +9,15 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: rgb(230, 118, 84);
+    background-color: #e74a33;
 }
 
 .container{
     background-color: white;
     border-radius: 10px;
     padding: 10px;
+    width: 30dvw;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .itens{
@@ -25,6 +27,28 @@ body{
 .inputs{
     display: flex;
     flex-direction: column;
+    gap: 10px;
     justify-content: center;
     align-items: center;
+}
+
+.user{
+    display: flex;
+    width: 25dvw;
+    margin: 5px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid black;
+    text-align: inherit;
+}
+
+#cadastro{
+    margin: 100px;
+    text-align: center;
+    background-color: #e74a33;
+    color: white;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+ 
 }
