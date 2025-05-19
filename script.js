@@ -7,8 +7,9 @@ function adicionar(){
     if (num.value.length == 0 || num.value < 1 || num.value > 100){
         alert("Valor invalido")
     }else{
-        
+       var num = sele.CreateElement("option")
+        num.innerHTML = `Valor ${num.value} adicionado`        
     }
 }
 
-fim.addEventListener("click",adicionar)
+adc.addEventListener("click",adicionar)
