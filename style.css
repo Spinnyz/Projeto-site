@@ -7,6 +7,10 @@
 body{
     background-color: #00ACE6;
     font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
     
 }
 
@@ -21,6 +25,8 @@ h1{
     border-radius: 10px;
     margin: 10px;
     padding: 10px;
+    max-height: 50dvh;
+    max-width: 60dvw;
     
 }
 
