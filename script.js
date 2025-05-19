@@ -11,4 +11,4 @@ function adicionar(){
     }
 }
 
-fim.addEventListener("click",enviar)
+fim.addEventListener("click",adicionar)
