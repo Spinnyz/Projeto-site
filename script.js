@@ -1,6 +1,6 @@
-var num = document.querySelector(".inumber")
+var num = document.querySelector("#inumber")
 var adc = document.querySelector(".adc")
-var sele = document.querySelector(".ilist")
+var sele = document.querySelector("#ilist")
 var fim = document.querySelector(".fim")
 
 function enviar(){
@@ -8,3 +8,5 @@ function enviar(){
         alert("Valor invalido")
     }
 }
+
+fim.addEventListener("click",enviar)
